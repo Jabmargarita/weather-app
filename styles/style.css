@@ -1,0 +1,60 @@
+body:after { 
+
+content: "";
+background: url("../images/cat-background.jpg");
+opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+
+
+}
+
+
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	font-style: bold;
+	color: #E00F5E;;
+	margin: 0px;
+}
+
+#appTitle {
+	padding:0px;
+	margin:0px;
+}
+
+.locationContainer, .temperatureContainer {
+
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	color: #E00F5E;
+	font-style: bold;
+	
+}
+
+.temperature {
+	display: inline-block;
+	margin: 0px;
+	color: #E00F5E;
+	font-style: bold;
+	
+}
+.imageContaine#r,  {
+	
+	margin:10px;
+	padding:0;
+		
+}
+
+#image {
+	display:block;
+	margin-top: 10px;
+	 margin-left: auto;
+  margin-right: auto;
+}
